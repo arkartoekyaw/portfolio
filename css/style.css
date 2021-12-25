@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mulish:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Start Nav Bar Section */
+nav{
+    width: 100%;
+    position: sticky;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid white;
+}
+/* End Nav Bar Section */
+
+/* Start Banner Section */
+.banners{
+    height: 100vh;
+
+    background-color: #f2aa4caf;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End Banner Section */
+
+/* Start About Section */
+.about{
+    background-color: skyblue;
+    height: 60vh;
+}
+/* End About */
+
+/* Start Skills Section */
+.skills{
+    padding-top: 10px;
+    background: #f2aa4caf;
+}
+
+.skills .container{
+    margin-top: 2%;
+    /* margin-bottom: 6%; */
+}
+
+label{
+    font-size: 20px;
+}
+
+.progress{
+    height: 30px !important;
+    box-shadow: 2px 4px 5px gray, -2px -2px 5px white;
+}
+
+.progress:hover{
+    box-shadow: 2px 4px 5px white, -2px -2px 5px gray;
+}
+/* End Skills Section */
+
+/* Start Projects Section  */
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: linear-gradient(skyblue, #f2aa4caf);
+}
+
+.carousel{
+    width: 80%;
+    height: 80vh;
+    background-color: lightblue;
+    box-shadow: 10px 20px 10px  rgba(0, 0, 0, 0.4);
+}
+
+iframe{
+    width: 100%;
+    height: 80vh;
+}
+
+@media screen and (max-width:576px) {
+    .carousel{
+        width: 90%;
+        height: 50vh;
+        box-shadow: 10px 20px 10px  rgba(0, 0, 0, 0.4);
+    }
+    iframe{
+        width: 100%;
+        height: 50vh;
+    }
+}
+/* End Projects Section  */
+
+/* Start Contact Section */
+.contact{
+    padding-top: 5%;
+    padding-bottom: 4%;
+    background-color: skyblue;
+}
+
+.contact iframe{
+    box-shadow: 15px 20px 10px rgba(0, 0, 0, 0.4);
+}
+
+.socials a{
+    color: #f2aa4caf;
+}
+/* End Contact Section */
