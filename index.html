@@ -34,18 +34,20 @@
         </nav>
         <!-- END NAV BAR -->
 
-         <!-- Start Banner Section -->
-         <section id="home" class="banners">
+        <!-- Start Banner Section -->
+        <section id="home" class="banners">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="col-6">
-                            <img src="./img/profile.jpg" width="400px" alt="2" class="rounded-pill">
-                        </div>
-                        <div class="col-6 ms-auto">
-                            <h2>Hello, I'm<br/>  <span>R Kar Toe Kyaw</span></h2>
-                            <h3 class="lead">A web developer who is young, enthusiastic and quick learner.</h3>
-                            <a href="#about" class="btn btn-secondary">About Me</a>
+                        <div class="d-flex flex-row">
+                            <div class="col-md-6">
+                                <img src="./img/profile.jpg" alt="2" class="rounded-pill">
+                            </div>
+                            <div class="col-6 my-auto my-auto mx-auto">
+                                <h2>Hello, I'm<br/>  <span>R Kar Toe Kyaw</span></h2>
+                                <h3 class="lead">A web developer who is young, enthusiastic and quick learner.</h3>
+                                <a href="#about" class="btn btn-primary">About Me</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -55,30 +57,30 @@
 
         <!-- Start About Section -->
         <section id="about" class="about" >
-            <div class="container pt-2 my-auto">
+            <div class="container p-3 my-auto">
                 <div class="row">
                     <div class="col-12 my-4">
                         <div class="d-flex flex-row">
                             <div class="col-4 d-none d-md-block my-auto">
                                 <img src="./img/1.jpg" width="200px" class="rounded-pill" alt="3">
                             </div>
-                            <div class="col-8">
-                                <p class="text-center font-italic">Get to Know me</p>
-                                <h2 class="text-center font-weight-bold"><b>About Me</b></h2>
+                            <div class="col-8 mx-auto">
+                                <p class="text-center" style="font-style: italic;">Get to Know me</p>
+                                <h2 class="text-center fw-bolder text-success"><b>About Me</b></h2>
                                 <h4 class="mt-4"><b>Who am i?</b></h4>
                                 <h3>I'm <b>R Kar Toe Kyaw</b>, a Front End Web Developer.</h3>
                                 <p>I am studying Computer Science at University of People.</p>
                                 <div class="row p-lg-3 p-0 mb-lg-3 mb-0">
-                                    <div class="col-md-6 col-4">
-                                        <a href="CV.pdf" target="_blank" class="btn btn-primary">Download CV</a>
+                                    <div class="col-md-6 col-12 p-2">
+                                        <b>Email:</b> arkartoekyaw@gmail.com<br>
+                                        <b>Location:</b> MYANMAR                                        
                                     </div>                           
-                                    <div class="col-md-6 col-4 ">
+                                    <div class="col-md-6 col-12 p-2">
                                         <b>Name:</b> R Kar Toe Kyaw<br>
                                         <b>Age:</b> 25
                                     </div>
-                                    <div class="col-md-6 col-4  mt-2">
-                                        <b>Email:</b> arkartoekyaw@gmail.com<br>
-                                        <b>Location:</b> MYANMAR
+                                    <div class="col-md-6 col-12  p-2">
+                                        <a href="CV.pdf" target="_blank" class="btn btn-primary">Download CV</a>
                                     </div>
                                 </div>
                             </div>
@@ -92,7 +94,7 @@
         <!-- Start Skills Section -->
         <section id="skills" class="skills" >           
             <div class="container p-5">
-                <h1 class="text-center">My Skills</h1>
+                <h1 class="text-center fw-bolder text-success">My Skills</h1>
                 <div class="row p-lg-3 p-0 mb-lg-3 mb-0">
                     <div class="col-lg-6 col-12 pt-lg-0 pt-3">
                         <label for="html">HTML</label>
@@ -143,51 +145,55 @@
 
         <!-- Start Projects Section -->
         <section id="projects" class="projects">
-            <div id="carouselExampleCaptions" class="carousel slide mt-3" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <div class="container p-2">
+                <h2 class="text-center fw-bolder text-success">My Projects</h2>
+                <div id="carouselExampleCaptions" class="carousel slide mt-3" data-bs-ride="carousel">
+                    
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/BxVpTRU_lYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="text-success">Project 1</h5>
+                          <a href="https://aktk.herokuapp.com/" target="_blank">Web Version</a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/UQYH7IV80R8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="text-success">Project 2</h5>
+                          <a href="https://amzprojectphotography.herokuapp.com/" target="_blank">Web Version</a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/JnE_EhpTOrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="text-success">Project 3</h5>
+                          <p class="text-primary">Responsive Web Design With Bootstrap</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BxVpTRU_lYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5 class="text-success">Project 1</h5>
-                      <a href="https://aktk.herokuapp.com/" target="_blank">Web Version</a>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UQYH7IV80R8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5 class="text-success">Project 2</h5>
-                      <a href="https://amzprojectphotography.herokuapp.com/" target="_blank">Web Version</a>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JnE_EhpTOrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5 class="text-success">Project 3</h5>
-                      <p class="text-primary">Responsive Web Design With Bootstrap</p>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+            </div>     
         </section>
         <!-- End Projects Section -->
 
         <!-- Start Contact Section -->
         <section id="contact" class="contact">
-             <div class="container py-3 mb-2">
-                <h2 class="text-center">Contact</h2>
+             <div class="container p-2 mb-2">
+                <h2 class="text-center fw-bolder text-success">Contact</h2>
                 <p class="text-center">Contact Me</p>
                  <div class="row">
                     <div class="col-lg-7 col-12 my-auto">
@@ -210,7 +216,7 @@
                             <button class="btn btn-primary">Send Message</button>
                         </form>
                         <div class="mt-4 socials">
-                            <p class="lead text-danger">Follow me on :</p>
+                            <p class="fw-bolder text-danger">Follow me on :</p>
                             <a href="https://twitter.com/arkartoekyaw" target="_blank" class="me-3 btn btn-dark p-2 mb-3" style="border-radius: 15px;">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16"><path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/></svg>
                             </a>
@@ -236,8 +242,8 @@
                     </div>
                  </div>
              </div>
-
         </section>
+        <!-- End Contact Section -->
 
         
         <!-- bootstrap css1 js2 -->
@@ -249,3 +255,5 @@
         <script src="js/app.js" type="text/javascript"></script>
     </body>
 </html>
+
+<!-- https://arkartoekyaw.github.io/portfolio/ -->
