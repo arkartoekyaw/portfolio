@@ -10,5 +10,5 @@ if (
   age--;
 }
 
-// Update the age element with the calculated age
+
 document.getElementById("age").innerText = age;
